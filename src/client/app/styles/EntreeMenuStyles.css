@@ -1,0 +1,29 @@
+:local(.itemList) {
+  width: 690px;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding: 0px 0px 20px 10px;
+}
+
+:local(.itemBox) {
+  width: 685px;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  padding: 0px 0px 20px 5px;
+}
+
+:local(.header) {
+  width: 680px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: 333333;
+  float: left;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0px 0px 10px 5px;
+}
+
+:local(.header.pad) {
+  margin-top: 20px;
+}

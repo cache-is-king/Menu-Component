@@ -1,0 +1,103 @@
+:local(.menuViewBox) {
+  width: 720px;
+  height: auto;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  opacity: 0.9;
+  margin-bottom: 50px;
+}
+
+:local(.title) {
+  font-family: Lato;
+  color: #333333;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  padding-left: 15px;
+}
+
+:local(.menuNav) {
+  height: 50px;
+  padding: 0px 0px 16px 15px;
+  margin-top: 16px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+:local(.lunchBtn) {
+  font-size: 0.875rem;
+  font-family: Lato;
+  line-height: 1.43;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 0px 5px 0px;
+  margin-right: 10px;
+  border: 2px solid #e1e1e1;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+:local(.lunchBtn:focus) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}
+
+:local(.lunchBtn:hover) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}
+
+:local(.dinnerBtn) {
+  font-size: 0.875rem;
+  font-family: Lato;
+  line-height: 1.43;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 0px 5px 0px;
+  margin-right: 10px;
+  border: 2px solid #e1e1e1;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+:local(.dinnerBtn:focus) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}
+
+:local(.dinnerBtn:hover) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}
+:local(.dessertBtn) {
+  font-size: 0.875rem;
+  font-family: Lato;
+  line-height: 1.43;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 0px 5px 0px;
+  margin-right: 10px;
+  border: 2px solid #e1e1e1;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+:local(.dessertBtn:focus) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}
+
+:local(.dessertBtn:hover) {
+  border: 2px solid red;
+  border-radius: 2px;
+  outline: 0;
+}

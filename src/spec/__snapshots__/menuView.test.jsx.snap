@@ -1,0 +1,627 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuView Component should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MenuView />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+        >
+          <h2>
+            Menu
+          </h2>
+        </div>,
+        <div
+          className={undefined}
+        >
+          <button
+            className={undefined}
+            onClick={[Function]}
+            value="lunch"
+          >
+            Lunch
+          </button>
+          <button
+            className={undefined}
+            onClick={[Function]}
+            value="dinner"
+          >
+            Dinner
+          </button>
+          <button
+            className={undefined}
+            onClick={[Function]}
+            value="dessert"
+          >
+            Dessert
+          </button>
+          <select
+            className="filterBox"
+            onChange={[Function]}
+            value="none"
+          >
+            <option
+              value="none"
+            >
+              filter
+            </option>
+            <option
+              value="gluten-free"
+            >
+              gluten-free
+            </option>
+            <option
+              value="vegan"
+            >
+              vegan
+            </option>
+            <option
+              value="vegetarian"
+            >
+              vegetarian
+            </option>
+          </select>
+        </div>,
+        <MenuType
+          menu={Array []}
+          tag="none"
+          type="lunch"
+        />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            Menu
+          </h2>,
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Menu",
+          },
+          "ref": null,
+          "rendered": "Menu",
+          "type": "h2",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="lunch"
+            >
+              Lunch
+            </button>,
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="dinner"
+            >
+              Dinner
+            </button>,
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="dessert"
+            >
+              Dessert
+            </button>,
+            <select
+              className="filterBox"
+              onChange={[Function]}
+              value="none"
+            >
+              <option
+                value="none"
+              >
+                filter
+              </option>
+              <option
+                value="gluten-free"
+              >
+                gluten-free
+              </option>
+              <option
+                value="vegan"
+              >
+                vegan
+              </option>
+              <option
+                value="vegetarian"
+              >
+                vegetarian
+              </option>
+            </select>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lunch",
+              "className": undefined,
+              "onClick": [Function],
+              "value": "lunch",
+            },
+            "ref": null,
+            "rendered": "Lunch",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dinner",
+              "className": undefined,
+              "onClick": [Function],
+              "value": "dinner",
+            },
+            "ref": null,
+            "rendered": "Dinner",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dessert",
+              "className": undefined,
+              "onClick": [Function],
+              "value": "dessert",
+            },
+            "ref": null,
+            "rendered": "Dessert",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="none"
+                >
+                  filter
+                </option>,
+                <option
+                  value="gluten-free"
+                >
+                  gluten-free
+                </option>,
+                <option
+                  value="vegan"
+                >
+                  vegan
+                </option>,
+                <option
+                  value="vegetarian"
+                >
+                  vegetarian
+                </option>,
+              ],
+              "className": "filterBox",
+              "onChange": [Function],
+              "value": "none",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "filter",
+                  "value": "none",
+                },
+                "ref": null,
+                "rendered": "filter",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "gluten-free",
+                  "value": "gluten-free",
+                },
+                "ref": null,
+                "rendered": "gluten-free",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "vegan",
+                  "value": "vegan",
+                },
+                "ref": null,
+                "rendered": "vegan",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "vegetarian",
+                  "value": "vegetarian",
+                },
+                "ref": null,
+                "rendered": "vegetarian",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "menu": Array [],
+          "tag": "none",
+          "type": "lunch",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+          >
+            <h2>
+              Menu
+            </h2>
+          </div>,
+          <div
+            className={undefined}
+          >
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="lunch"
+            >
+              Lunch
+            </button>
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="dinner"
+            >
+              Dinner
+            </button>
+            <button
+              className={undefined}
+              onClick={[Function]}
+              value="dessert"
+            >
+              Dessert
+            </button>
+            <select
+              className="filterBox"
+              onChange={[Function]}
+              value="none"
+            >
+              <option
+                value="none"
+              >
+                filter
+              </option>
+              <option
+                value="gluten-free"
+              >
+                gluten-free
+              </option>
+              <option
+                value="vegan"
+              >
+                vegan
+              </option>
+              <option
+                value="vegetarian"
+              >
+                vegetarian
+              </option>
+            </select>
+          </div>,
+          <MenuType
+            menu={Array []}
+            tag="none"
+            type="lunch"
+          />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              Menu
+            </h2>,
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Menu",
+            },
+            "ref": null,
+            "rendered": "Menu",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className={undefined}
+                onClick={[Function]}
+                value="lunch"
+              >
+                Lunch
+              </button>,
+              <button
+                className={undefined}
+                onClick={[Function]}
+                value="dinner"
+              >
+                Dinner
+              </button>,
+              <button
+                className={undefined}
+                onClick={[Function]}
+                value="dessert"
+              >
+                Dessert
+              </button>,
+              <select
+                className="filterBox"
+                onChange={[Function]}
+                value="none"
+              >
+                <option
+                  value="none"
+                >
+                  filter
+                </option>
+                <option
+                  value="gluten-free"
+                >
+                  gluten-free
+                </option>
+                <option
+                  value="vegan"
+                >
+                  vegan
+                </option>
+                <option
+                  value="vegetarian"
+                >
+                  vegetarian
+                </option>
+              </select>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lunch",
+                "className": undefined,
+                "onClick": [Function],
+                "value": "lunch",
+              },
+              "ref": null,
+              "rendered": "Lunch",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dinner",
+                "className": undefined,
+                "onClick": [Function],
+                "value": "dinner",
+              },
+              "ref": null,
+              "rendered": "Dinner",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dessert",
+                "className": undefined,
+                "onClick": [Function],
+                "value": "dessert",
+              },
+              "ref": null,
+              "rendered": "Dessert",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="none"
+                  >
+                    filter
+                  </option>,
+                  <option
+                    value="gluten-free"
+                  >
+                    gluten-free
+                  </option>,
+                  <option
+                    value="vegan"
+                  >
+                    vegan
+                  </option>,
+                  <option
+                    value="vegetarian"
+                  >
+                    vegetarian
+                  </option>,
+                ],
+                "className": "filterBox",
+                "onChange": [Function],
+                "value": "none",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "filter",
+                    "value": "none",
+                  },
+                  "ref": null,
+                  "rendered": "filter",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "gluten-free",
+                    "value": "gluten-free",
+                  },
+                  "ref": null,
+                  "rendered": "gluten-free",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "vegan",
+                    "value": "vegan",
+                  },
+                  "ref": null,
+                  "rendered": "vegan",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "vegetarian",
+                    "value": "vegetarian",
+                  },
+                  "ref": null,
+                  "rendered": "vegetarian",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "menu": Array [],
+            "tag": "none",
+            "type": "lunch",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

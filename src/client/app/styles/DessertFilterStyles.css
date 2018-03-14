@@ -1,0 +1,19 @@
+:local(.header) {
+  width: 685px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: 333333;
+  float: left;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0px 0px 10px 5px;
+  margin-top: 15px;
+}
+
+:local(.itemBox) {
+  width: 685px;
+  height: auto;
+  display: block;
+  padding: 0px 0px 80px 10px;
+  overflow: hidden;
+}
+

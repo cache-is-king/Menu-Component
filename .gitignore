@@ -1,0 +1,6 @@
+src/public/
+node_modules/
+bundle.js
+bundle-prod.js
+coverage/
+.env

@@ -1,0 +1,2080 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntreeMenu Component should render entree lunch menu correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EntreeMenu
+    menu={
+      Array [
+        Object {
+          "cost": 99,
+          "foodItem": "sandwich",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "sausages",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "tacos",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "burger",
+          "tags": "none",
+        },
+        Object {
+          "cost": 99,
+          "foodItem": "chips",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "steak",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "ham",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "turkey",
+          "tags": "none",
+        },
+        Object {
+          "cost": 99,
+          "foodItem": "pop tarts",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "cheetos",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "snickers",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "apple",
+          "tags": "none",
+        },
+        Object {
+          "cost": 99,
+          "foodItem": "jicama",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "pineapple",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "paper",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "ramen",
+          "tags": "none",
+        },
+        Object {
+          "cost": 99,
+          "foodItem": "mochi",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "tuna melt",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "chilli",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "mushrooms",
+          "tags": "none",
+        },
+      ]
+    }
+    tag="none"
+    type="lunch"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section
+          className={undefined}
+        >
+          <div
+            className="undefined undefined"
+          >
+            Aperitivi
+          </div>
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              }
+            }
+          />
+        </section>,
+        <section
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            Antipasti
+          </div>
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              }
+            }
+          />
+        </section>,
+        <section
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            Primi
+          </div>
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              }
+            }
+          />
+        </section>,
+        <section
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            Secondi
+          </div>
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              }
+            }
+          />
+        </section>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="undefined undefined"
+            >
+              Aperitivi
+            </div>,
+            Array [
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "sandwich",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "sausages",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 35,
+                    "foodItem": "tacos",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 10,
+                    "foodItem": "burger",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "chips",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "steak",
+                    "tags": "none",
+                  }
+                }
+              />,
+            ],
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Aperitivi",
+              "className": "undefined undefined",
+            },
+            "ref": null,
+            "rendered": "Aperitivi",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            >
+              Antipasti
+            </div>,
+            Array [
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "sandwich",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "sausages",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 35,
+                    "foodItem": "tacos",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 10,
+                    "foodItem": "burger",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "chips",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "steak",
+                    "tags": "none",
+                  }
+                }
+              />,
+            ],
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Antipasti",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "Antipasti",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            >
+              Primi
+            </div>,
+            Array [
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "sandwich",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "sausages",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 35,
+                    "foodItem": "tacos",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 10,
+                    "foodItem": "burger",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "chips",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "steak",
+                    "tags": "none",
+                  }
+                }
+              />,
+            ],
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Primi",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "Primi",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            >
+              Secondi
+            </div>,
+            Array [
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "sandwich",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "sausages",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 35,
+                    "foodItem": "tacos",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 10,
+                    "foodItem": "burger",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 99,
+                    "foodItem": "chips",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 50,
+                    "foodItem": "steak",
+                    "tags": "none",
+                  }
+                }
+              />,
+            ],
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Secondi",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "Secondi",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 99,
+                "foodItem": "chips",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 50,
+                "foodItem": "steak",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section
+            className={undefined}
+          >
+            <div
+              className="undefined undefined"
+            >
+              Aperitivi
+            </div>
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                }
+              }
+            />
+          </section>,
+          <section
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              Antipasti
+            </div>
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                }
+              }
+            />
+          </section>,
+          <section
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              Primi
+            </div>
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                }
+              }
+            />
+          </section>,
+          <section
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              Secondi
+            </div>
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                }
+              }
+            />
+          </section>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="undefined undefined"
+              >
+                Aperitivi
+              </div>,
+              Array [
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "sandwich",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "sausages",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 35,
+                      "foodItem": "tacos",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 10,
+                      "foodItem": "burger",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "chips",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "steak",
+                      "tags": "none",
+                    }
+                  }
+                />,
+              ],
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Aperitivi",
+                "className": "undefined undefined",
+              },
+              "ref": null,
+              "rendered": "Aperitivi",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className={undefined}
+              >
+                Antipasti
+              </div>,
+              Array [
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "sandwich",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "sausages",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 35,
+                      "foodItem": "tacos",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 10,
+                      "foodItem": "burger",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "chips",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "steak",
+                      "tags": "none",
+                    }
+                  }
+                />,
+              ],
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Antipasti",
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": "Antipasti",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className={undefined}
+              >
+                Primi
+              </div>,
+              Array [
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "sandwich",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "sausages",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 35,
+                      "foodItem": "tacos",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 10,
+                      "foodItem": "burger",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "chips",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "steak",
+                      "tags": "none",
+                    }
+                  }
+                />,
+              ],
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Primi",
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": "Primi",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className={undefined}
+              >
+                Secondi
+              </div>,
+              Array [
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "sandwich",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "sausages",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 35,
+                      "foodItem": "tacos",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 10,
+                      "foodItem": "burger",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 99,
+                      "foodItem": "chips",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 50,
+                      "foodItem": "steak",
+                      "tags": "none",
+                    }
+                  }
+                />,
+              ],
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Secondi",
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": "Secondi",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 99,
+                  "foodItem": "chips",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 50,
+                  "foodItem": "steak",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

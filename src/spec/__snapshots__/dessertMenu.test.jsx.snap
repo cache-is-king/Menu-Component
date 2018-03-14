@@ -1,0 +1,619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dessert/Filter menu Component should render a dietary filtered lunch menu correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DessertFilterMenu
+    menu={
+      Array [
+        Object {
+          "cost": 99,
+          "foodItem": "sandwich",
+          "tags": "vegan",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "sausages",
+          "tags": "vegan",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "tacos",
+          "tags": "vegan",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "burger",
+          "tags": "vegan",
+        },
+      ]
+    }
+    tag="vegan"
+    type="lunch"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+        >
+          lunch – vegan
+        </div>,
+        Array [
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "sandwich",
+                "tags": "vegan",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "vegan",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "tacos",
+                "tags": "vegan",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "burger",
+                "tags": "vegan",
+              }
+            }
+          />,
+        ],
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "lunch – vegan",
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": "lunch – vegan",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 99,
+            "foodItem": "sandwich",
+            "tags": "vegan",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 50,
+            "foodItem": "sausages",
+            "tags": "vegan",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 35,
+            "foodItem": "tacos",
+            "tags": "vegan",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 10,
+            "foodItem": "burger",
+            "tags": "vegan",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+          >
+            lunch – vegan
+          </div>,
+          Array [
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "sandwich",
+                  "tags": "vegan",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "vegan",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "tacos",
+                  "tags": "vegan",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "burger",
+                  "tags": "vegan",
+                }
+              }
+            />,
+          ],
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "lunch – vegan",
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": "lunch – vegan",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 99,
+              "foodItem": "sandwich",
+              "tags": "vegan",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 50,
+              "foodItem": "sausages",
+              "tags": "vegan",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 35,
+              "foodItem": "tacos",
+              "tags": "vegan",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 10,
+              "foodItem": "burger",
+              "tags": "vegan",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Dessert/Filter menu Component should render dessert menu correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DessertFilterMenu
+    menu={
+      Array [
+        Object {
+          "cost": 99,
+          "foodItem": "cake",
+          "tags": "none",
+        },
+        Object {
+          "cost": 50,
+          "foodItem": "sausages",
+          "tags": "none",
+        },
+        Object {
+          "cost": 35,
+          "foodItem": "pie",
+          "tags": "none",
+        },
+        Object {
+          "cost": 10,
+          "foodItem": "whipped cream",
+          "tags": "none",
+        },
+      ]
+    }
+    tag="none"
+    type="dessert"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+        >
+          Dolce
+        </div>,
+        Array [
+          <MenuItem
+            item={
+              Object {
+                "cost": 99,
+                "foodItem": "cake",
+                "tags": "none",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 50,
+                "foodItem": "sausages",
+                "tags": "none",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "pie",
+                "tags": "none",
+              }
+            }
+          />,
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "whipped cream",
+                "tags": "none",
+              }
+            }
+          />,
+        ],
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Dolce",
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": "Dolce",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 99,
+            "foodItem": "cake",
+            "tags": "none",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 50,
+            "foodItem": "sausages",
+            "tags": "none",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 35,
+            "foodItem": "pie",
+            "tags": "none",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "cost": 10,
+            "foodItem": "whipped cream",
+            "tags": "none",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+          >
+            Dolce
+          </div>,
+          Array [
+            <MenuItem
+              item={
+                Object {
+                  "cost": 99,
+                  "foodItem": "cake",
+                  "tags": "none",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 50,
+                  "foodItem": "sausages",
+                  "tags": "none",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "pie",
+                  "tags": "none",
+                }
+              }
+            />,
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "whipped cream",
+                  "tags": "none",
+                }
+              }
+            />,
+          ],
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Dolce",
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": "Dolce",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 99,
+              "foodItem": "cake",
+              "tags": "none",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 50,
+              "foodItem": "sausages",
+              "tags": "none",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 35,
+              "foodItem": "pie",
+              "tags": "none",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "cost": 10,
+              "foodItem": "whipped cream",
+              "tags": "none",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
