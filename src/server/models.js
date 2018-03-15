@@ -20,7 +20,7 @@ module.exports = {
       id: id,
       query: `menu.${meal}`,
     };
-    dbHelpers.find(queryObj, (err, result) => {
+    dbHelpers.findOne(queryObj, (err, result) => {
       const resultObj = result[0].toObject();
       const menu = resultObj.menu[meal];
       const filteredMenu = menu.filter(item => item.tags === tag);

@@ -10,7 +10,7 @@
     "build": "./node_modules/.bin/webpack -d --watch",
     "build:prod": "./node_modules/.bin/webpack --config './webpack.prod.config.js'",
     "bundle": "./node_modules/.bin/webpack",
-    "seed": "node seedDatabase.js",
+    "seed": "mongoimport -d silverspoon -c restaurantmenus --file millionData/output.json --port 27017 --numInsertionWorkers 4",
     "server": "nodemon server.js"
   },
   "jest": {
@@ -55,6 +55,7 @@
     "webpack": "^3.11.0"
   },
   "dependencies": {
+    "bloomfilter": "0.0.16",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
