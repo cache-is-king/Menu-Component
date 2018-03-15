@@ -1,7 +1,7 @@
 const faker = require('faker');
 const fs = require('fs');
 const menuItems = require('./helpers/menuGenerator');
-const file = fs.createWriteStream(`./millionData/output.json`);
+const file = fs.createWriteStream(`./output.json`);
 
 function writeOneMillionTimes(file, encoding) {
   let i = 10000000;

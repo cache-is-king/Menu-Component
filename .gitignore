@@ -4,4 +4,4 @@ bundle.js
 bundle-prod.js
 coverage/
 .env
-millionData/output.json
+output.json

@@ -11,7 +11,7 @@
     "build:prod": "./node_modules/.bin/webpack --config './webpack.prod.config.js'",
     "bundle": "./node_modules/.bin/webpack",
     "genData": "node fakeData.js",
-    "seed": "mongoimport -d silverspoon -c restaurantmenus --file millionData/output.json --port 27017 --numInsertionWorkers 4",
+    "seed": "mongoimport -d silverspoon -c restaurantmenus --file output.json --port 27017 --numInsertionWorkers 4",
     "server": "nodemon server.js"
   },
   "jest": {
