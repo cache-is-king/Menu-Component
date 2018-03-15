@@ -28,8 +28,7 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run: npm run genData
-      - run: npm run seed
+      - run: npm run seed-original
       - save_cache:
           paths:
             - node_modules
