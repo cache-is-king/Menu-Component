@@ -20,7 +20,11 @@ const restaurantSchema = mongoose.Schema({
       tags: String,
     }],
   },
-});
+}).index({ name: 1});
+
+const Restaurantmenu = mongoose.model('restaurantmenu', restaurantSchema)
+
+Restaurantmenu.init().then(() => mongoose.disconnect);
 
 const Restaurant = mongoose.model('restaurantMenus', restaurantSchema);
 
@@ -73,7 +77,6 @@ const find = (options, cb) => {
       if (err) {
         cb(err, null);
       } else {
-        console.log(data);
         cb(null, data);
       }
     });
