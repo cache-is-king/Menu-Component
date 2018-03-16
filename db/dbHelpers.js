@@ -57,11 +57,11 @@ const save = (options, cb) => {
 };
 
 const find = (options, cb) => {
-  const query = options.query || 'id menu.lunch';
-  const idNum = options.id || 90976;
+  const query = options.query || 'menu.lunch';
+  const idNum = options.name || 'iusto restaurant 10909'; 
 
   if (query === '{}') {
-    Restaurant.find({}).exec((err, data) => {
+    Restaurant.findOne({$text:{$search: idNum}}).exec((err, data) => {
       if (err) {
         cb(err, null);
       } else {
@@ -69,10 +69,11 @@ const find = (options, cb) => {
       }
     });
   } else {
-    Restaurant.find({ id: idNum }).select(query).exec((err, data) => {
+    Restaurant.findOne({$text:{$search: idNum}}).select(query).exec((err, data) => {
       if (err) {
         cb(err, null);
       } else {
+        console.log(data);
         cb(null, data);
       }
     });

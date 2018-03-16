@@ -7,7 +7,7 @@ class MenuView extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restId: this.props.id || 9099999,
+      restId: this.props.id || 'non restaurant 109999',
       menuType: 'lunch',
       tag: 'none',
       menuData: [],
