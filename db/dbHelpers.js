@@ -22,11 +22,9 @@ const restaurantSchema = mongoose.Schema({
   },
 }).index({ name: 1});
 
-const Restaurantmenu = mongoose.model('restaurantmenu', restaurantSchema)
-
-Restaurantmenu.init().then(() => mongoose.disconnect);
 
 const Restaurant = mongoose.model('restaurantMenus', restaurantSchema);
+// Restaurant.init().then(() => mongoose.disconnect);
 
 const save = (options, cb) => {
   const { data } = options;
@@ -62,10 +60,10 @@ const save = (options, cb) => {
 
 const find = (options, cb) => {
   const query = options.query || 'menu.lunch';
-  const idNum = options.name || 'iusto restaurant 10909'; 
+  const idNum = options.name || "restaurant 100000"; 
 
   if (query === '{}') {
-    Restaurant.findOne({$text:{$search: idNum}}).exec((err, data) => {
+    Restaurant.findOne({name: idNum}).exec((err, data) => {
       if (err) {
         cb(err, null);
       } else {
@@ -73,8 +71,9 @@ const find = (options, cb) => {
       }
     });
   } else {
-    Restaurant.findOne({$text:{$search: idNum}}).select(query).exec((err, data) => {
+    Restaurant.findOne({name: idNum}).select(query).exec((err, data) => {
       if (err) {
+        console.log(err);
         cb(err, null);
       } else {
         cb(null, data);

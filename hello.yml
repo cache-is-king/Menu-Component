@@ -1,0 +1,14 @@
+config:
+  target: 'http://localhost:3005'
+  phases:
+    - duration: 20
+      arrivalRate: 10
+  defaults:
+    headers:
+      x-my-service-auth: '987401838271002188298567'
+scenarios:
+  - flow:
+    - loop:
+      - get:
+          url: "/restaurants/restaurant%201000000/menu/lunch"
+      count: 1000
