@@ -199,26 +199,8 @@ ShallowWrapper {
           <MenuItem
             item={
               Object {
-                "cost": 99,
-                "foodItem": "sandwich",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
-                "cost": 50,
-                "foodItem": "sausages",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "ham",
                 "tags": "none",
               }
             }
@@ -227,7 +209,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 10,
-                "foodItem": "burger",
+                "foodItem": "turkey",
                 "tags": "none",
               }
             }
@@ -236,7 +218,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 99,
-                "foodItem": "chips",
+                "foodItem": "pop tarts",
                 "tags": "none",
               }
             }
@@ -245,7 +227,25 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "cheetos",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 35,
+                "foodItem": "snickers",
+                "tags": "none",
+              }
+            }
+          />
+          <MenuItem
+            item={
+              Object {
+                "cost": 10,
+                "foodItem": "apple",
                 "tags": "none",
               }
             }
@@ -263,7 +263,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 99,
-                "foodItem": "sandwich",
+                "foodItem": "jicama",
                 "tags": "none",
               }
             }
@@ -272,7 +272,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 50,
-                "foodItem": "sausages",
+                "foodItem": "pineapple",
                 "tags": "none",
               }
             }
@@ -281,7 +281,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "paper",
                 "tags": "none",
               }
             }
@@ -290,25 +290,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 10,
-                "foodItem": "burger",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
-                "cost": 99,
-                "foodItem": "chips",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
-                "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "ramen",
                 "tags": "none",
               }
             }
@@ -326,7 +308,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 99,
-                "foodItem": "sandwich",
+                "foodItem": "mochi",
                 "tags": "none",
               }
             }
@@ -335,7 +317,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 50,
-                "foodItem": "sausages",
+                "foodItem": "tuna melt",
                 "tags": "none",
               }
             }
@@ -344,7 +326,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "chilli",
                 "tags": "none",
               }
             }
@@ -353,25 +335,7 @@ ShallowWrapper {
             item={
               Object {
                 "cost": 10,
-                "foodItem": "burger",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
-                "cost": 99,
-                "foodItem": "chips",
-                "tags": "none",
-              }
-            }
-          />
-          <MenuItem
-            item={
-              Object {
-                "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "mushrooms",
                 "tags": "none",
               }
             }
@@ -574,26 +538,8 @@ ShallowWrapper {
               <MenuItem
                 item={
                   Object {
-                    "cost": 99,
-                    "foodItem": "sandwich",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
-                    "cost": 50,
-                    "foodItem": "sausages",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
                     "cost": 35,
-                    "foodItem": "tacos",
+                    "foodItem": "ham",
                     "tags": "none",
                   }
                 }
@@ -602,7 +548,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 10,
-                    "foodItem": "burger",
+                    "foodItem": "turkey",
                     "tags": "none",
                   }
                 }
@@ -611,7 +557,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 99,
-                    "foodItem": "chips",
+                    "foodItem": "pop tarts",
                     "tags": "none",
                   }
                 }
@@ -620,7 +566,25 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 50,
-                    "foodItem": "steak",
+                    "foodItem": "cheetos",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 35,
+                    "foodItem": "snickers",
+                    "tags": "none",
+                  }
+                }
+              />,
+              <MenuItem
+                item={
+                  Object {
+                    "cost": 10,
+                    "foodItem": "apple",
                     "tags": "none",
                   }
                 }
@@ -649,38 +613,8 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "item": Object {
-                "cost": 99,
-                "foodItem": "sandwich",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
-                "cost": 50,
-                "foodItem": "sausages",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "ham",
                 "tags": "none",
               },
             },
@@ -695,7 +629,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 10,
-                "foodItem": "burger",
+                "foodItem": "turkey",
                 "tags": "none",
               },
             },
@@ -710,7 +644,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 99,
-                "foodItem": "chips",
+                "foodItem": "pop tarts",
                 "tags": "none",
               },
             },
@@ -725,7 +659,37 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "cheetos",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 35,
+                "foodItem": "snickers",
+                "tags": "none",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "cost": 10,
+                "foodItem": "apple",
                 "tags": "none",
               },
             },
@@ -752,7 +716,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 99,
-                    "foodItem": "sandwich",
+                    "foodItem": "jicama",
                     "tags": "none",
                   }
                 }
@@ -761,7 +725,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 50,
-                    "foodItem": "sausages",
+                    "foodItem": "pineapple",
                     "tags": "none",
                   }
                 }
@@ -770,7 +734,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 35,
-                    "foodItem": "tacos",
+                    "foodItem": "paper",
                     "tags": "none",
                   }
                 }
@@ -779,25 +743,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 10,
-                    "foodItem": "burger",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
-                    "cost": 99,
-                    "foodItem": "chips",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
-                    "cost": 50,
-                    "foodItem": "steak",
+                    "foodItem": "ramen",
                     "tags": "none",
                   }
                 }
@@ -827,7 +773,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 99,
-                "foodItem": "sandwich",
+                "foodItem": "jicama",
                 "tags": "none",
               },
             },
@@ -842,7 +788,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 50,
-                "foodItem": "sausages",
+                "foodItem": "pineapple",
                 "tags": "none",
               },
             },
@@ -857,7 +803,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "paper",
                 "tags": "none",
               },
             },
@@ -872,37 +818,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 10,
-                "foodItem": "burger",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
-                "cost": 99,
-                "foodItem": "chips",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
-                "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "ramen",
                 "tags": "none",
               },
             },
@@ -929,7 +845,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 99,
-                    "foodItem": "sandwich",
+                    "foodItem": "mochi",
                     "tags": "none",
                   }
                 }
@@ -938,7 +854,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 50,
-                    "foodItem": "sausages",
+                    "foodItem": "tuna melt",
                     "tags": "none",
                   }
                 }
@@ -947,7 +863,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 35,
-                    "foodItem": "tacos",
+                    "foodItem": "chilli",
                     "tags": "none",
                   }
                 }
@@ -956,25 +872,7 @@ ShallowWrapper {
                 item={
                   Object {
                     "cost": 10,
-                    "foodItem": "burger",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
-                    "cost": 99,
-                    "foodItem": "chips",
-                    "tags": "none",
-                  }
-                }
-              />,
-              <MenuItem
-                item={
-                  Object {
-                    "cost": 50,
-                    "foodItem": "steak",
+                    "foodItem": "mushrooms",
                     "tags": "none",
                   }
                 }
@@ -1004,7 +902,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 99,
-                "foodItem": "sandwich",
+                "foodItem": "mochi",
                 "tags": "none",
               },
             },
@@ -1019,7 +917,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 50,
-                "foodItem": "sausages",
+                "foodItem": "tuna melt",
                 "tags": "none",
               },
             },
@@ -1034,7 +932,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 35,
-                "foodItem": "tacos",
+                "foodItem": "chilli",
                 "tags": "none",
               },
             },
@@ -1049,37 +947,7 @@ ShallowWrapper {
             "props": Object {
               "item": Object {
                 "cost": 10,
-                "foodItem": "burger",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
-                "cost": 99,
-                "foodItem": "chips",
-                "tags": "none",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "item": Object {
-                "cost": 50,
-                "foodItem": "steak",
+                "foodItem": "mushrooms",
                 "tags": "none",
               },
             },
@@ -1174,26 +1042,8 @@ ShallowWrapper {
             <MenuItem
               item={
                 Object {
-                  "cost": 99,
-                  "foodItem": "sandwich",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
-                  "cost": 50,
-                  "foodItem": "sausages",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "ham",
                   "tags": "none",
                 }
               }
@@ -1202,7 +1052,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 10,
-                  "foodItem": "burger",
+                  "foodItem": "turkey",
                   "tags": "none",
                 }
               }
@@ -1211,7 +1061,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 99,
-                  "foodItem": "chips",
+                  "foodItem": "pop tarts",
                   "tags": "none",
                 }
               }
@@ -1220,7 +1070,25 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "cheetos",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 35,
+                  "foodItem": "snickers",
+                  "tags": "none",
+                }
+              }
+            />
+            <MenuItem
+              item={
+                Object {
+                  "cost": 10,
+                  "foodItem": "apple",
                   "tags": "none",
                 }
               }
@@ -1238,7 +1106,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 99,
-                  "foodItem": "sandwich",
+                  "foodItem": "jicama",
                   "tags": "none",
                 }
               }
@@ -1247,7 +1115,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 50,
-                  "foodItem": "sausages",
+                  "foodItem": "pineapple",
                   "tags": "none",
                 }
               }
@@ -1256,7 +1124,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "paper",
                   "tags": "none",
                 }
               }
@@ -1265,25 +1133,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 10,
-                  "foodItem": "burger",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
-                  "cost": 99,
-                  "foodItem": "chips",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
-                  "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "ramen",
                   "tags": "none",
                 }
               }
@@ -1301,7 +1151,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 99,
-                  "foodItem": "sandwich",
+                  "foodItem": "mochi",
                   "tags": "none",
                 }
               }
@@ -1310,7 +1160,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 50,
-                  "foodItem": "sausages",
+                  "foodItem": "tuna melt",
                   "tags": "none",
                 }
               }
@@ -1319,7 +1169,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "chilli",
                   "tags": "none",
                 }
               }
@@ -1328,25 +1178,7 @@ ShallowWrapper {
               item={
                 Object {
                   "cost": 10,
-                  "foodItem": "burger",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
-                  "cost": 99,
-                  "foodItem": "chips",
-                  "tags": "none",
-                }
-              }
-            />
-            <MenuItem
-              item={
-                Object {
-                  "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "mushrooms",
                   "tags": "none",
                 }
               }
@@ -1549,26 +1381,8 @@ ShallowWrapper {
                 <MenuItem
                   item={
                     Object {
-                      "cost": 99,
-                      "foodItem": "sandwich",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
-                      "cost": 50,
-                      "foodItem": "sausages",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
                       "cost": 35,
-                      "foodItem": "tacos",
+                      "foodItem": "ham",
                       "tags": "none",
                     }
                   }
@@ -1577,7 +1391,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 10,
-                      "foodItem": "burger",
+                      "foodItem": "turkey",
                       "tags": "none",
                     }
                   }
@@ -1586,7 +1400,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 99,
-                      "foodItem": "chips",
+                      "foodItem": "pop tarts",
                       "tags": "none",
                     }
                   }
@@ -1595,7 +1409,25 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 50,
-                      "foodItem": "steak",
+                      "foodItem": "cheetos",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 35,
+                      "foodItem": "snickers",
+                      "tags": "none",
+                    }
+                  }
+                />,
+                <MenuItem
+                  item={
+                    Object {
+                      "cost": 10,
+                      "foodItem": "apple",
                       "tags": "none",
                     }
                   }
@@ -1624,38 +1456,8 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "item": Object {
-                  "cost": 99,
-                  "foodItem": "sandwich",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
-                  "cost": 50,
-                  "foodItem": "sausages",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "ham",
                   "tags": "none",
                 },
               },
@@ -1670,7 +1472,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 10,
-                  "foodItem": "burger",
+                  "foodItem": "turkey",
                   "tags": "none",
                 },
               },
@@ -1685,7 +1487,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 99,
-                  "foodItem": "chips",
+                  "foodItem": "pop tarts",
                   "tags": "none",
                 },
               },
@@ -1700,7 +1502,37 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "cheetos",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 35,
+                  "foodItem": "snickers",
+                  "tags": "none",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "cost": 10,
+                  "foodItem": "apple",
                   "tags": "none",
                 },
               },
@@ -1727,7 +1559,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 99,
-                      "foodItem": "sandwich",
+                      "foodItem": "jicama",
                       "tags": "none",
                     }
                   }
@@ -1736,7 +1568,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 50,
-                      "foodItem": "sausages",
+                      "foodItem": "pineapple",
                       "tags": "none",
                     }
                   }
@@ -1745,7 +1577,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 35,
-                      "foodItem": "tacos",
+                      "foodItem": "paper",
                       "tags": "none",
                     }
                   }
@@ -1754,25 +1586,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 10,
-                      "foodItem": "burger",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
-                      "cost": 99,
-                      "foodItem": "chips",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
-                      "cost": 50,
-                      "foodItem": "steak",
+                      "foodItem": "ramen",
                       "tags": "none",
                     }
                   }
@@ -1802,7 +1616,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 99,
-                  "foodItem": "sandwich",
+                  "foodItem": "jicama",
                   "tags": "none",
                 },
               },
@@ -1817,7 +1631,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 50,
-                  "foodItem": "sausages",
+                  "foodItem": "pineapple",
                   "tags": "none",
                 },
               },
@@ -1832,7 +1646,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "paper",
                   "tags": "none",
                 },
               },
@@ -1847,37 +1661,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 10,
-                  "foodItem": "burger",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
-                  "cost": 99,
-                  "foodItem": "chips",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
-                  "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "ramen",
                   "tags": "none",
                 },
               },
@@ -1904,7 +1688,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 99,
-                      "foodItem": "sandwich",
+                      "foodItem": "mochi",
                       "tags": "none",
                     }
                   }
@@ -1913,7 +1697,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 50,
-                      "foodItem": "sausages",
+                      "foodItem": "tuna melt",
                       "tags": "none",
                     }
                   }
@@ -1922,7 +1706,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 35,
-                      "foodItem": "tacos",
+                      "foodItem": "chilli",
                       "tags": "none",
                     }
                   }
@@ -1931,25 +1715,7 @@ ShallowWrapper {
                   item={
                     Object {
                       "cost": 10,
-                      "foodItem": "burger",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
-                      "cost": 99,
-                      "foodItem": "chips",
-                      "tags": "none",
-                    }
-                  }
-                />,
-                <MenuItem
-                  item={
-                    Object {
-                      "cost": 50,
-                      "foodItem": "steak",
+                      "foodItem": "mushrooms",
                       "tags": "none",
                     }
                   }
@@ -1979,7 +1745,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 99,
-                  "foodItem": "sandwich",
+                  "foodItem": "mochi",
                   "tags": "none",
                 },
               },
@@ -1994,7 +1760,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 50,
-                  "foodItem": "sausages",
+                  "foodItem": "tuna melt",
                   "tags": "none",
                 },
               },
@@ -2009,7 +1775,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 35,
-                  "foodItem": "tacos",
+                  "foodItem": "chilli",
                   "tags": "none",
                 },
               },
@@ -2024,37 +1790,7 @@ ShallowWrapper {
               "props": Object {
                 "item": Object {
                   "cost": 10,
-                  "foodItem": "burger",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
-                  "cost": 99,
-                  "foodItem": "chips",
-                  "tags": "none",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "item": Object {
-                  "cost": 50,
-                  "foodItem": "steak",
+                  "foodItem": "mushrooms",
                   "tags": "none",
                 },
               },

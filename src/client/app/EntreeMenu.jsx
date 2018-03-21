@@ -31,19 +31,19 @@ const EntreeMenu = (props) => {
       <section className={styles.itemBox}>
         <div className={styles.header}>{headers[1]}</div>
         {
-          items[0].map(data => <MenuItem item={data} />)
+          items[1].map(data => <MenuItem item={data} />)
         }
       </section>
       <section className={styles.itemBox}>
         <div className={styles.header}>{headers[2]}</div>
         {
-          items[0].map(data => <MenuItem item={data} />)
+          items[2].map(data => <MenuItem item={data} />)
         }
       </section>
       <section className={styles.itemBox}>
         <div className={styles.header}>{headers[3]}</div>
         {
-          items[0].map(data => <MenuItem item={data} />)
+          items[3].map(data => <MenuItem item={data} />)
         }
       </section>
     </section>
