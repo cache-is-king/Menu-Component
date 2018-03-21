@@ -5,3 +5,4 @@ bundle-prod.js
 coverage/
 .env
 output.json
+newrelic_agent.log
