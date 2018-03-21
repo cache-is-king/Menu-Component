@@ -1,4 +1,4 @@
-require('newrelic');
+// require('newrelic');
 var http = require('http');
 const path = require('path');
 const Promise = require('bluebird');
