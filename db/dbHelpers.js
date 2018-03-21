@@ -24,7 +24,7 @@ const restaurantSchema = mongoose.Schema({
 
 
 const Restaurant = mongoose.model('restaurantMenus', restaurantSchema);
-Restaurant.init().then(() => mongoose.disconnect);
+
 
 const save = (options, cb) => {
   const { data } = options;
