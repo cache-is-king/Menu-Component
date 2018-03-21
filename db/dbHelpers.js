@@ -60,7 +60,7 @@ const save = (options, cb) => {
 
 const find = (options, cb) => {
   const query = options.query || 'menu.lunch';
-  const idNum = options.name || "restaurant 100000"; 
+  const idNum = options.name || "restaurant 1000"; 
 
   if (query === '{}') {
     Restaurant.findOne({name: idNum}).exec((err, data) => {

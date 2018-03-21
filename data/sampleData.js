@@ -3,7 +3,7 @@ const menu = require('../helpers/menuGenerator');
 const initialData = [
   { id: 90976, name: 'Beard Papa\'s' },
   { id: 90826, name: 'Tpumps' },
-  { id: 89104, name: 'iusto restaurant 10909' },
+  { id: 89104, name: 'restaurant 1000' },
   { id: 89104, name: 'Tokyo Katana-Ya' },
   { id: 87260, name: 'Senor Sisig' },
   { id: 86567, name: 'Poke Bar' },

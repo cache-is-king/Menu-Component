@@ -18,9 +18,10 @@ describe('database helpers - save and find', () => {
   // nb: the sample data contains a duplication of the restaurant with id: 89104
   it('should not save duplicate restaurants', async (done) => {
     expect.assertions(1);
-    db.find({ name: 'voluptatum restaurant 9999000' }, (err, docs) => {
+    db.find({ name: 'restaurant 1000'}, (err, docs) => {
       if (err) { throw err; }
-      expect(docs.menu.lunch[0].cost).toBe(10);
+      console.log(docs.menu);
+      expect(Object.keys(docs.menu)).toEqual(expect.arrayContaining(['lunch']));
       done();
     });
   });
